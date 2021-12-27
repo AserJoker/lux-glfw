@@ -1,3 +1,5 @@
+import { Long } from "./glfw";
+
 export * from "./glfw";
 export * from "./const";
 export * from "./cursorshape";
@@ -10,3 +12,5 @@ export * from "./key";
 export * from "./mouse";
 export * from "./version";
 export * from "./windowhint";
+declare const NULL: Long;
+export { NULL };

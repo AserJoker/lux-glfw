@@ -1,7 +1,7 @@
 {
   "name": "@lux/glfw",
   "version": "0.1.0",
-  "main": "lib/core.node",
+  "main": "lib/glfw.node",
   "typings": "lib/index.d.ts",
   "scripts": {
     "build": "node-gyp clean configure build",

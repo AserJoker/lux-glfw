@@ -1667,4 +1667,5 @@ void GLFW_Initialize(v8::Local<v8::Object> exports)
 
     EXPORT(CXX_createImage);
     EXPORT(CXX_deleteImage);
+    exports->Set(exports->GetIsolate()->GetCurrentContext(), v8::String::NewFromUtf8(exports->GetIsolate(), "NULL").ToLocalChecked(), JsLong(exports->GetIsolate(), 0)).Check();
 }
