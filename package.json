@@ -1,0 +1,13 @@
+{
+  "name": "@lux/glfw",
+  "version": "0.1.0",
+  "main": "lib/core.node",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "node-gyp clean configure build",
+    "install": "node-gyp clean configure build"
+  },
+  "devDependencies": {
+    "node-gyp": "^8.4.1"
+  }
+}
