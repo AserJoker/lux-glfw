@@ -1,6 +1,6 @@
 {
   "name": "@lux/glfw",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "lib/core.node",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -9,5 +9,15 @@
   },
   "devDependencies": {
     "node-gyp": "^8.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AserJoker/lux-glfw.git"
+  },
+  "author": "AserJoker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AserJoker/lux-glfw/issues"
+  },
+  "homepage": "https://github.com/AserJoker/lux-glfw#readme"
 }

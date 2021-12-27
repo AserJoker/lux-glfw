@@ -3,7 +3,6 @@
 #include "glfw/glfw3.h"
 #include <functional>
 #include <map>
-#include <SDL2/SDL.h>
 #include "long.hpp"
 #define EXPORT_WITH_NAME(NAME, FUNCTION) NODE_SET_METHOD(exports, NAME, FUNCTION)
 #define EXPORT(FUNCTION) EXPORT_WITH_NAME(#FUNCTION, FUNCTION)
