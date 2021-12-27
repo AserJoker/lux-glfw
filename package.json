@@ -1,6 +1,6 @@
 {
   "name": "@lux/glfw",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "lib/core.node",
   "typings": "lib/index.d.ts",
   "scripts": {

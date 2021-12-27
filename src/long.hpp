@@ -1,5 +1,6 @@
 #pragma once
 #include <node/node.h>
+#include <iostream>
 v8::Local<v8::Object> JsLong(v8::Isolate *isolate, unsigned long value)
 {
     v8::Local<v8::Object> obj = v8::Object::New(isolate);
